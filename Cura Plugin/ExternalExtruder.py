@@ -92,7 +92,7 @@ class ExternalExtruder(Script):
                 }
             }
         }"""
-
+    
     def execute(self, data):
         # Get values
         EXRD_FORWARD_MAX = self.getSettingValueByKey("EXRD_FORWARD_MAX")
