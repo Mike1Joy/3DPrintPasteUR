@@ -1,0 +1,30 @@
+ Program
+   BeforeStart
+     Set Speed_b0=Off
+     Set Speed_b1=Off
+     Set Speed_b2=Off
+     Set Speed_b3=Off
+     Set ResetFlow0=Off
+     Set ResetFlow1=Off
+   Robot Program
+     Popup: Start print?
+     MoveL
+       Datum
+     Toolpath_MoveP
+       Toolpath_1
+       Toolpath_2
+       Toolpath_3
+       Toolpath_4
+       Toolpath_5
+     Set Speed_b0=Off
+     Set Speed_b1=Off
+     Set Speed_b2=Off
+     Set Speed_b3=Off
+   Thread_1
+     If ResetFlow0
+       Set Motor0_Flow=1.0
+       Set ResetFlow0=Off
+     If ResetFlow1
+       Set Motor1_Flow=1.0
+       Set ResetFlow1=Off
+     sync()
