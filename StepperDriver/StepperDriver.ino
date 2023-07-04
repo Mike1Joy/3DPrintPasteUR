@@ -36,18 +36,17 @@
 #define FORWARD_0 HIGH      // switch HIGH and LOW to change forward direction of motor
 #define BACKWARD_0 LOW
 #define PUL_PER_REV_0 3200
-#define RETRACT_RPM_0 23.2f
-#define MAXRPM_0 23.2f      // RPM of motor 0 when at max speed (b_speed = 14)
+#define RETRACT_RPM_0 17.4f
+#define MAXRPM_0 17.4f      // RPM of motor 0 when at max speed (b_speed = 14)
 
 #define FORWARD_1 HIGH
 #define BACKWARD_1 LOW
 #define PUL_PER_REV_1 3200
-#define RETRACT_RPM_1 170
-#define MAXRPM_1 170        // RPM of motor 1 when at max speed (b_speed = 14)
+#define RETRACT_RPM_1 255
+#define MAXRPM_1 255        // RPM of motor 1 when at max speed (b_speed = 14)
 
 #define VOLTAGE_1 231       // value from analog read when robot set to 1v
 #define VOLTAGE_4 825       // value from analog read when robot set to 4v
-
 
 ////// VARIABLES //////
 
