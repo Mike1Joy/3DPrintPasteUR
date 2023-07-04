@@ -32,7 +32,7 @@ class ExternalExtruder(Script):
                     "label": "MaxSpeed variable",
                     "description": "Max speed of extrusion in mm/s when motors will spin with maximum RPM - when pins are set to max (mm/s). Used in extrude bit expressions.",
                     "type": "int",
-                    "default_value": 75
+                    "default_value": 40
                 },
                 "EXRD_FORWARD_b0":
                 {
